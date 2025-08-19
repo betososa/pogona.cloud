@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+}
+
+.container {
+  background-color: #dbdbdb;
+  opacity: 0.5;
+  background-image:  linear-gradient(#c9c9ca 2.4000000000000004px, transparent 2.4000000000000004px), linear-gradient(90deg, #c9c9ca 2.4000000000000004px, transparent 2.4000000000000004px), linear-gradient(#c9c9ca 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(90deg, #c9c9ca 1.2000000000000002px, #dbdbdb 1.2000000000000002px);
+  background-size: 60px 60px, 60px 60px, 12px 12px, 12px 12px;
+  background-position: -2.4000000000000004px -2.4000000000000004px, -2.4000000000000004px -2.4000000000000004px, -1.2000000000000002px -1.2000000000000002px, -1.2000000000000002px -1.2000000000000002px;
+}
